@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
 ! Description: Personal rules for adblocking and element hiding.
-! Version: 1.0.0
+! Version: 26.01.05
 ! Expires: 1 days
 ! Homepage: https://gitlab.com/ja-som/adguard-personal-filter
 
@@ -52,3 +52,4 @@ theverge.com###zephr-overlay
 @@||www.netflix.com^$important,document
 abisoft.me###\38 59655cc-49cd-4151-991d-794e386adefb-banner
 @@||account.bhvr.com^$important,document
+@@||www.youtube.com^$important,document
