@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
 ! Description: Personal rules for adblocking and element hiding.
-! Version: 26.01.05-3
+! Version: 01.02.05
 ! Expires: 1 days
 ! Homepage: https://gitlab.com/ja-som/adguard-personal-filter
 
