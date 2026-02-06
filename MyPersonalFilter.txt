@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
 ! Description: Personal rules for adblocking and element hiding.
-! Version: 01.02.05
+! Version: 06.02.05
 ! Expires: 1 days
 ! Homepage: https://gitlab.com/ja-som/adguard-personal-filter
 
@@ -55,3 +55,4 @@ abisoft.me###\38 59655cc-49cd-4151-991d-794e386adefb-banner
 @@||www.youtube.com^$important,document
 metaforge.app##div:first-child > div.bg-muted.flex.min-h-screen.w-screen.flex-col:first-child > div.border-border.bg-card.fixed.bottom-32.left-1\/2.z-\[500000\].hidden.-translate-x-1\/2.rounded-lg.border.px-4.py-2.shadow-lg.md\:block:nth-child(3)
 ||sixytpaxhbgoq.space$document
+androidpolice.com##main.w-content:nth-child(12) > dialog.adblock:last-child
