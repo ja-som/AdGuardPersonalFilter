@@ -51,5 +51,5 @@ jobs:
             **Triggered by:**
             ${{github.event.head_commit.author.name}}
           color: 0xac02be
-          username: GitHub - dqcss
+          username: GitHub - AdGuardPersonalFilter
           avatar_url: ${{ secrets.AVATAR_URL }}
