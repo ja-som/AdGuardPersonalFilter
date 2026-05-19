@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
-! Description: Personal rules for adblocking and element hiding.
-! Version: 26.03.19
+! Description: Personal rules for adblocking.
+! Version: 26.05.19
 ! Expires: 1 days
-! Homepage: https://gitlab.com/ja-som/adguard-personal-filter
+! Homepage: https://github.com/ja-som/AdGuardPersonalFilter
 
 @@||ecm.financnasprava.sk^$important,document
 @@||play.geforcenow.com^$important,document
