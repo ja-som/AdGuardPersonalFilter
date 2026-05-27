@@ -1,59 +1,66 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
 ! Description: Personal rules for adblocking.
-! Version: 26.05.19
-! Expires: 1 days
+! Version: 26.05.27
+! Expires: 1 day
 ! Homepage: https://github.com/ja-som/AdGuardPersonalFilter
 
-@@||ecm.financnasprava.sk^$important,document
-@@||play.geforcenow.com^$important,document
-@@||stadia.google.com^$important,document
-@@||store.rg-adguard.net^$important,document
-@@||account.ubisoft.com^$important,document
-@@||pushbullet.com^$important,document
-@@||paypal.com^$important,document
-@@||payments.google.com^$important,document
-@@||pay.google.com^$important,document
-@@||moja.tatrabanka.sk^$important,document
-@@||www.seebee.de^$important,document
-@@||slovensko.sk^$important,document
+||sixytpaxhbgoq.space$document
+abisoft.me###\38 59655cc-49cd-4151-991d-794e386adefb-banner
+alza.sk###fixedBottom > div.fabs-row > div.fabs-column.fabs-right:last-child
 f95zone.to###top > div.p-body:nth-child(3) > div.p-body-inner > div.uix_contentWrapper:nth-child(2) > div.p-body-main > div.p-body-content > div.samBannerUnit.samAlignCenter:nth-child(2) > div.samItem > iframe
-hungrygeeks.com.ph###sticky_ad_bar > a > picture > img.lazyloaded:nth-child(2)
-tumblr.com###base-container > div.D5eCV:nth-child(2) > div.ZkG01 > div._3xgk:last-child > div.gPQR5.FGfuE.ah4XU > div.lSyOz:first-child > div.CiJTh:first-child > button > img.RWr4x
-twitter.com##.r-yfv4eo:style(filter: none !important;)
-twitter.com##.r-1ffoksr:style(display: none !important;)
-twitter.com##.r-drfeu3:style(display: none !important;)
-twitter.com##.r-jwli3a:style(display: none !important;)
-twitter.com##.r-1cmwbt1:style(display: none !important;)
-twitter.com##.r-1wtj0ep:style(display: flex !important;)
-@@||cdn.discordapp.com/attachments/*/mc_lastexception*.html^$important,document
-@@||cdn.discordapp.com/attachments/*/mc_systeminfo*.html^$important,document
-@@||cdn.discordapp.com/attachments/*/BE-ExceptionReport*.html^$important,document
-@@||sims4hq.tumblr.com^$important,document
-absolutelyiconic.blogspot.com###antiAdBlock
-solight.sk###ctl00_ewpz1_mainTemplateCtrl_TemplateCtrl1_FormCookiesManager1_pnCmNavBar
-stripe.com##div.NotificationCenter.theme--Light.flavor--Chroma.accent--Slate:last-child > div.NotificationCenter__list:nth-child(2) > div.Notification > div.Card.Card--shadowMedium.Notification__card > div.Notification__content > div.CookieSettingsNotificationRejectAll
-@@||tv.orange.sk^$important,document
-@@||cdn.discordapp.com/attachments/*/mc_lastexception*.html*^$important,document
-@@||cdn.discordapp.com/attachments/*/mc_systeminfo*.html*^$important,document
-@@||cdn.discordapp.com/attachments/*/BE-ExceptionReport*.html*^$important,document
-nsfwmods.com###basePopping > video:first-child
 heureka.sk###head-root > div.c-premium-gam:nth-child(2)
 heureka.sk###head-root > div.c-premium-gam-text__container:nth-child(3)
-@@||www.simmattically.com^$important,document
-@@||s.youtube.com/api/stats/watchtime*
+hungrygeeks.com.ph###sticky_ad_bar > a > picture > img.lazyloaded:nth-child(2)
+metaforge.app##div:first-child > div.bg-muted.flex.min-h-screen.w-screen.flex-col:first-child > div.border-border.bg-card.fixed.bottom-32.left-1\/2.z-\[500000\].hidden.-translate-x-1\/2.rounded-lg.border.px-4.py-2.shadow-lg.md\:block:nth-child(3)
+nsfwmods.com###basePopping > video:first-child
+solight.sk###ctl00_ewpz1_mainTemplateCtrl_TemplateCtrl1_FormCookiesManager1_pnCmNavBar
+stripe.com##div.NotificationCenter.theme--Light.flavor--Chroma.accent--Slate:last-child > div.NotificationCenter__list:nth-child(2) > div.Notification > div.Card.Card--shadowMedium.Notification__card > div.Notification__content > div.CookieSettingsNotificationRejectAll
+theverge.com###zephr-overlay
+theverge.com###zephr-zone-footer
+tumblr.com###base-container > div.D5eCV:nth-child(2) > div.ZkG01 > div._3xgk:last-child > div.gPQR5.FGfuE.ah4XU > div.lSyOz:first-child > div.CiJTh:first-child > button > img.RWr4x
 tumblr.com###base-container > div.D5eCV:nth-child(2) > div.c9lq9 > div._3xgk.Ril26:last-child > div.gPQR5.FGfuE.iTX1z > div.e1knl:last-child > aside > div.FZkjV:nth-child(3)
 tumblr.com###base-container > div.D5eCV:nth-child(2) > div.c9lq9 > div._3xgk.Ril26:last-child > div.gPQR5.FGfuE.iTX1z > div.e1knl:last-child > aside > div.FZkjV:nth-child(5)
 tumblr.com###base-container > div.D5eCV:nth-child(2) > div.c9lq9 > div.h_Erh:first-child > div.FA5JM > div.ACnga:last-child > div.gLEjz:first-child
-alza.sk###fixedBottom > div.fabs-row > div.fabs-column.fabs-right:last-child
-theverge.com###zephr-zone-footer
-theverge.com###zephr-overlay
-@@||sk.unicreditbanking.eu^$important,document
-@@||www.netflix.com^$important,document
-abisoft.me###\38 59655cc-49cd-4151-991d-794e386adefb-banner
+||twitter.com##.r-1cmwbt1:style(display: none !important;)
+||twitter.com##.r-1ffoksr:style(display: none !important;)
+||twitter.com##.r-1wtj0ep:style(display: flex !important;)
+||twitter.com##.r-drfeu3:style(display: none !important;)
+||twitter.com##.r-jwli3a:style(display: none !important;)
+||twitter.com##.r-yfv4eo:style(filter: none !important;)
+||x.com##.r-1cmwbt1:style(display: none !important;)
+||x.com##.r-1ffoksr:style(display: none !important;)
+||x.com##.r-1wtj0ep:style(display: flex !important;)
+||x.com##.r-drfeu3:style(display: none !important;)
+||x.com##.r-jwli3a:style(display: none !important;)
+||x.com##.r-yfv4eo:style(filter: none !important;)
+
+@@||absolutelyiconic.blogspot.com###antiAdBlock
 @@||account.bhvr.com^$important,document
-@@||www.youtube.com^$important,document
-metaforge.app##div:first-child > div.bg-muted.flex.min-h-screen.w-screen.flex-col:first-child > div.border-border.bg-card.fixed.bottom-32.left-1\/2.z-\[500000\].hidden.-translate-x-1\/2.rounded-lg.border.px-4.py-2.shadow-lg.md\:block:nth-child(3)
-||sixytpaxhbgoq.space$document
+@@||cdn.discordapp.com/attachments/*/BE-ExceptionReport*.html*^$important,document
+@@||cdn.discordapp.com/attachments/*/BE-ExceptionReport*.html^$important,document
+@@||cdn.discordapp.com/attachments/*/mc_lastexception*.html*^$important,document
+@@||cdn.discordapp.com/attachments/*/mc_lastexception*.html^$important,document
+@@||cdn.discordapp.com/attachments/*/mc_systeminfo*.html*^$important,document
+@@||cdn.discordapp.com/attachments/*/mc_systeminfo*.html^$important,document
+@@||seebee.de^$important,document
+@@||ecm.financnasprava.sk^$important,document
+@@||play.geforcenow.com^$important,document
+@@||stadia.google.com^$important,document
+@@||payments.google.com^$important,document
+@@||pay.google.com^$important,document
 @@||gov.sk^$important,document
 @@||minv.sk^$important,document
+@@||netflix.com^$important,document
+@@||tv.orange.sk^$important,document
+@@||paypal.com^$important,document
+@@||pushbullet.com^$important,document
+@@||store.rg-adguard.net^$important,document
+@@||slovensko.sk^$important,document
+@@||moja.tatrabanka.sk^$important,document
+@@||simmattically.com^$important,document
+@@||sims4hq.tumblr.com^$important,document
+@@||account.ubisoft.com^$important,document
+@@||sk.unicreditbanking.eu^$important,document
+@@||youtube.com^$important,document
+@@||s.youtube.com/api/stats/watchtime*
