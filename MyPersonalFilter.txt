@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
 ! Description: Personal rules for adblocking.
-! Version: 26.05.27
+! Version: 26/05/27-2
 ! Expires: 1 day
 ! Homepage: https://github.com/ja-som/AdGuardPersonalFilter
 
@@ -22,18 +22,50 @@ tumblr.com###base-container > div.D5eCV:nth-child(2) > div.ZkG01 > div._3xgk:las
 tumblr.com###base-container > div.D5eCV:nth-child(2) > div.c9lq9 > div._3xgk.Ril26:last-child > div.gPQR5.FGfuE.iTX1z > div.e1knl:last-child > aside > div.FZkjV:nth-child(3)
 tumblr.com###base-container > div.D5eCV:nth-child(2) > div.c9lq9 > div._3xgk.Ril26:last-child > div.gPQR5.FGfuE.iTX1z > div.e1knl:last-child > aside > div.FZkjV:nth-child(5)
 tumblr.com###base-container > div.D5eCV:nth-child(2) > div.c9lq9 > div.h_Erh:first-child > div.FA5JM > div.ACnga:last-child > div.gLEjz:first-child
-||twitter.com##.r-1cmwbt1:style(display: none !important;)
-||twitter.com##.r-1ffoksr:style(display: none !important;)
-||twitter.com##.r-1wtj0ep:style(display: flex !important;)
-||twitter.com##.r-drfeu3:style(display: none !important;)
-||twitter.com##.r-jwli3a:style(display: none !important;)
-||twitter.com##.r-yfv4eo:style(filter: none !important;)
+! ===============
+! == X/Twitter ==
+! ===============
 ||x.com##.r-1cmwbt1:style(display: none !important;)
 ||x.com##.r-1ffoksr:style(display: none !important;)
 ||x.com##.r-1wtj0ep:style(display: flex !important;)
 ||x.com##.r-drfeu3:style(display: none !important;)
 ||x.com##.r-jwli3a:style(display: none !important;)
 ||x.com##.r-yfv4eo:style(filter: none !important;)
+! -- https://x.com/ (logged out)
+! Grok in footer
+x.com##[role="navigation"] > .r-o59np7:has(> [href="https://grok.com/"])
+! -- https://x.com/home
+! Today's news, What's happening, Who to folow on right side
+x.com##.css-175oi2r.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x
+! Sidebar - Premium
+x.com##nav > [href="/i/premium_sign_up"]
+! Sidebar - Grok
+x.com##nav > [href="/i/grok"]
+! Compose post - Grok
+x.com##[data-testid="grokImgGen"]
+! Tweet - Explain this post
+x.com##button[aria-label*="Grok"]:has(.css-175oi2r.r-xoduu5.r-bnwqim)
+! Floating Grok chat button in bottom right
+x.com##[data-testid="GrokDrawer"]
+! - Promos
+! Main feed (Top) - "Create epic videos in cinematic quality" promo + separator
+x.com##[data-testid="cellInnerDiv"] > .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > .css-175oi2r.r-kemksi:has(> [data-testid="inlinePrompt"] > [data-testid="inlinePrompt-primaryAction"] > a[href="https://grok.com/imagine"])
+x.com##[data-testid="cellInnerDiv"]:has(> .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > .css-175oi2r.r-kemksi > [data-testid="inlinePrompt"] > [data-testid="inlinePrompt-primaryAction"] > a[href="https://grok.com/imagine"]) + [data-testid="cellInnerDiv"]:has(> .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r.r-l00any.r-109y4c4.r-gu4em3)
+! Right sidebar - "Make videos in seconds" promo
+x.com##.css-175oi2r:has(> .r-kemksi.r-1ifxtd0 > aside[role="complementary"] > a[href="https://grok.com/imagine?referring_page=home_sidebar_grok_promo"])
+! -- https://x.com/artsyomni/status/2039107622117183957
+! Tweet - Actions menu - Edit image
+x.com##[role="menuitem"][href*="grok.com/imagine"]
+! "Edit Image" when hovering over bottom right of image
+x.com##.css-175oi2r.r-rki7wi.r-1ba6zt5.r-u8s1d.r-c97pre:has([href^="https://grok.com/imagine"])
+! -- https://x.com/grok/status/2021675529582039415
+! "Ask Grok" button - below posts from Grok
+x.com##.css-175oi2r.r-1mmae3n:has(> [data-testid="grok_post_atgrok_button"])
+! -- https://x.com/soraofficialapp/status/2036546752535470382
+! Tweet with "Made with AI" disclosure
+x.com##[data-testid="tweet"]:has(.css-175oi2r.r-9aw3ui.r-7xmw5f.r-knv0ih)
+! "Profile Summary" button
+x.com##.r-1phboty.r-2yi16.r-1qi8awa:has(path[d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"])
 
 @@||absolutelyiconic.blogspot.com###antiAdBlock
 @@||account.bhvr.com^$important,document
