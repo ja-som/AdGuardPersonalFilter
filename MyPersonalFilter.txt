@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Filter List
 ! Description: Personal rules for adblocking.
-! Version: 26/05/27-4
+! Version: 26/06/06
 ! Expires: 1 day
 ! Homepage: https://github.com/ja-som/AdGuardPersonalFilter
 
@@ -77,7 +77,8 @@ x.com##[role="navigation"] > .r-o59np7:has(> [href="https://grok.com/"])
 ! Today's news, What's happening, Who to folow on right side
 x.com##.css-175oi2r.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x
 ! Sidebar - Premium
-x.com##nav > [href="/i/premium_sign_up"]
+x.com##[href="/i/premium_sign_up"]
+x.com##[href="/i/premium_sign_up?referring_page=settings"]
 ! Sidebar - Grok
 x.com##nav > [href="/i/grok"]
 ! Compose post - Grok
